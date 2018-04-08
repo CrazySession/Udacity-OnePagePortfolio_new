@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+#container{
+    background-color: #2E2E2E;
+}
+
+header{
+    background-color: #38393B;
+    border-bottom: solid 1px white;
+}
+
+#top{
+    float: right;
+    padding-right: 25px;
+}
+
+#logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#brand{
+    margin: 0;
+    font-family: 'Kumar One', cursive;
+}
+
+#underline{
+    color: white;
+    margin: 0;
+    font-family: 'Kumar One', cursive;
+}
+
+#imageScreen{
+
+}
+
+#navSection{
+    background-color: #74767B;
+    border-bottom: solid 1px white;
+}
+
+#navdrop{
+    display: none;
+}
+
+.hamburger{
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
+    list-style: none;
+    display: block;
+}
+
+#navbar{
+
+}
+
+.navButton{
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    padding-right: 30px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+
+#mainCont{
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: #808288;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footText{
+
+}
+
+a:link
+{
+    color:#FFFFFF;
+    text-decoration:none  !important;
+}
+a:visited
+{
+    color:#FFFFFF;
+    text-decoration:none !important;
+}
+a:hover
+{
+    color:#FFFFFF;
+    text-decoration:none !important;
+}
+
+a:active
+{
+    color: #FFFFFF;
+    text-decoration: none !important;
+}

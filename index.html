@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/main.css"                      />
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css"                 />
+        <link rel="stylesheet" type="text/css" href="css/grids/portfoliogrid.css"       />
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Kumar+One"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster"
+              rel="stylesheet">
+
+        <!-- Responsive -->
+        <link rel="stylesheet" type="text/css" href="css/responsiveDesign/portMedium.css"
+              media="screen and (max-width: 950px)"  />
+        <link rel="stylesheet" type="text/css" href="css/responsiveDesign/portIpad.css"
+              media="screen and (max-width: 800px)"  />
+        <link rel="stylesheet" type="text/css" href="css/responsiveDesign/portPhone.css"
+              media="screen and (max-width: 500px)"  />
+
+        <!-- Javascript/Jquery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+
+        <title>CrazySessions Portfolio</title>
+
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <!-- Top Banner -->
+            <header>
+                    <img id="logo" src="https://i2.wp.com/www.learninglean.org/wordpress/wp-content/uploads/2017/12/udacity-logo.png"
+                         alt="Ooops that shouldn´t happen">
+                <ul id="top">
+                    <li>
+                        <h1 id="brand"><a href="index.html">CrazySessions Portfolio</a></h1>
+                    </li>
+                    <li>
+                        <h2 id="underline">Lifelong Learner</h2>
+                    </li>
+                </ul>
+            </header>
+
+            <!-- Navbar -->
+            <div id="navSection">
+
+                <div id="navdrop">
+                    <button onclick="myFunction()" class="dropbtn">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="index.html">Portfolio</a>
+                        <a href="#">About</a>
+                        <a href="#">Customer Review</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Coding Course</a>
+                        <a href="#">Contact</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+
+                <ul id="navbar">
+                    <li class="navButton" id="home"><a href="index.html">Home</a></li>
+                    <li class="navButton" id="portfolio"><a href="index.html">Portfolio</a></li>
+                    <li class="navButton" id="about"><a href="#">About</a></li>
+                    <li class="navButton" id="customerRev"><a href="#">Customer Reviews</a></li>
+                    <li class="navButton" id="blog"><a href="#">Blog</a></li>
+                    <li class="navButton" id="codingCourse"><a href="#">Coding Course</a></li>
+                    <li class="navButton" id="contact"><a href="#">Contact</a></li>
+                    <li class="navButton" id="faq"><a href="#">FAQ</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Left <aside> and right <aside>  before and after section if necessary -->
+
+            <!-- ImageScreen -->
+            <div id="imageScreen">
+
+                <ul id="portList">
+                    <li>
+                        <a target="_blank" href="https://github.com/CrazySession/portfolio-site">
+                        <img class="portImg thumbnail" id="projOne" src="img/portf/akdev.png"
+                        alt="Oops that shouldn´t happen"
+                        title="Click on the picture for project details"        />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/CrazySession/CoffeeLoverProject">
+                        <img class="portImg thumbnail" id="projTwo" src="img/portf/coffee.png"
+                        alt="Oops that shouldn´t happen"
+                        title="Click on the picture for project details"        />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/CrazySession/ud036_StarterCode">
+                        <img class="portImg thumbnail" id="projThree" src="img/portf/movie.png"
+                        alt="Oops that shouldn´t happen"
+                        title="Click on the picture for project details"        />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img class="portImg thumbnail" id="mainImg" src="img/portf/code_color_img.jpg"
+                         alt="Oops that shouldn´t happen"
+                         title="Click on the picture for project details"        />
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Footer -->
+            <footer>
+
+                <p id="footText">Thanks for the free pictures from
+                    <a target="_blank" href="https://stocksnap.io/">Stocksnap.io</a>
+                    &copy; AK Development 2018  <a href="#">Impressum</a></p>
+
+            </footer>
+
+        </div>
+        <!-- Javascript -->
+        <script src="js/hover.js"></script>
+        <script src="js/dropdown.js"></script>
+
+    </body>
+
+</html>
